@@ -6,7 +6,7 @@ import csv from "csv-parser";
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5500"
+    origin: "*"
 }));
 
 app.get("/g1", (req, res) => {
