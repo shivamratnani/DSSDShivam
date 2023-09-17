@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    padding: 20px;
+    background-color: rgb(160, 209, 225);
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.graph-box {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}

@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <title>Graphs on Spotify streams vs release period</title>
+        <link rel="stylesheet" href="styles.css">
         <script src="https://cdn.plot.ly/plotly-2.25.2.min.js" charset="utf-8"></script>
         <script type="module" src="graph.mjs"></script>
     </head>
     <body>
-        <div id="graph"></div>
+        <div class="container">
+            <h1>Graphs on Spotify streams vs release period</h1>
+            <p>Graphs on Spotify streams by the last 3 years</p>
+            <div id="graph" class="graph-box"></div>
+            <p>Graphs on Spotify streams by month for the last 3 years</p>
+            <div id="graph2" class="graph-box"></div>
+            <p>Graphs on Spotify streams by day for the last 3 years</p>
+            <div id="graph3" class="graph-box"></div>
+        </div>
     </body>
 </html>
